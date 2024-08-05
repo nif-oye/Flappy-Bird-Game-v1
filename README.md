@@ -34,6 +34,8 @@ This repository contains the source code for a simple Flappy Bird clone made usi
 ```bash
 git clone https://github.com/nif-oye/flappy-bird-clone.git
 cd flappy-bird-clone
+```
+
 
 Open the project in Unity:
 
