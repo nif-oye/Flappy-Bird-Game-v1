@@ -37,7 +37,3 @@ cd flappy-bird-clone
 3. Build the project
 
 4. Play the game.
-
-- Click on the Add button.
-- Navigate to the directory where you cloned the repository and select it.
-- Open the project.
