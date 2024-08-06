@@ -6,7 +6,6 @@ This repository contains the source code for a simple Flappy Bird clone made usi
 
 - [Game Features](#game-features)
 - [Installation](#installation)
-- [How to Play](#how-to-play)
 
 ## Game Features
 
@@ -42,5 +41,3 @@ cd flappy-bird-clone
 - Click on the Add button.
 - Navigate to the directory where you cloned the repository and select it.
 - Open the project.
-
-Build the project and run the game.
