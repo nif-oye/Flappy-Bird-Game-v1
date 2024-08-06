@@ -7,10 +7,6 @@ This repository contains the source code for a simple Flappy Bird clone made usi
 - [Game Features](#game-features)
 - [Installation](#installation)
 - [How to Play](#how-to-play)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Credits](#credits)
-- [License](#license)
 
 ## Game Features
 
@@ -36,10 +32,13 @@ git clone https://github.com/nif-oye/flappy-bird-clone.git
 cd flappy-bird-clone
 ```
 
+2. Open the project in Unity:
+- Launch Unity Hub.
+- Add the project and open in correct Unity editor
 
-Open the project in Unity:
+3. Build the project
+4. Play the game.
 
-Launch Unity Hub.
 - Click on the Add button.
 - Navigate to the directory where you cloned the repository and select it.
 - Open the project.
