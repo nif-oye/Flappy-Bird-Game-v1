@@ -1,19 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 
-public class PipeSpawnerScript : MonoBehaviour
+public class CloudSpawnerScript : MonoBehaviour
 {
-    public GameObject pipe;
+    public GameObject cloud;
     public float spawnRate = 2;
     private float timer = 0;
-    public float heightOffset = 10;
+    public float heightOffset = 7;
+
     void Start()
     {
-        SpawnPipe();
+        SpawnCloud();
     }
-
     void Update()
     {
         if (timer < spawnRate){
@@ -21,16 +20,15 @@ public class PipeSpawnerScript : MonoBehaviour
         }
         else
         {
-            SpawnPipe();
+            SpawnCloud();
             timer = 0;
         }
     }
-
-    void SpawnPipe(){
+    void SpawnCloud(){
         float lowestPoint = transform.position.y - heightOffset;
         float highestPoint = transform.position.y + heightOffset;
         float randomYPoint = Random.Range(lowestPoint, highestPoint);
-        UnityEngine.Vector3 spawnPosition = new(transform.position.x, randomYPoint, transform.position.z);
-        Instantiate(pipe, spawnPosition, transform.rotation);
+        Vector3 spawnPosition = new(transform.position.x, randomYPoint, transform.position.z);
+        Instantiate(cloud, spawnPosition, transform.rotation);
     }
 }

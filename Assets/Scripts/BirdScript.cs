@@ -11,7 +11,7 @@ public class BirdScript : MonoBehaviour
     public bool birdIsAlive = true;
     void Start()
     {
-        gameObject.name = "Nifemi's Bird"; 
+        gameObject.name = "Nifemi's Bird";
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
