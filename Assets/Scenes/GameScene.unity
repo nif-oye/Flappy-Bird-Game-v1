@@ -520,7 +520,7 @@ Transform:
   m_GameObject: {fileID: 435606606}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35, y: 0, z: 4.82}
+  m_LocalPosition: {x: 34, y: 3.84, z: 4.82}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -748,7 +748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloud: {fileID: 9060044662862207151, guid: fcd1f62ddfbf7524984d0df16b1e38e0, type: 3}
-  spawnRate: 9
+  spawnRate: 11
   heightOffset: 4
 --- !u!4 &1037208268
 Transform:
@@ -759,7 +759,7 @@ Transform:
   m_GameObject: {fileID: 1037208266}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 41.08, y: -4.09, z: 4.82}
+  m_LocalPosition: {x: 34, y: -3.04, z: 4.82}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -858,6 +858,7 @@ GameObject:
   - component: {fileID: 1174477463}
   - component: {fileID: 1174477464}
   - component: {fileID: 1174477465}
+  - component: {fileID: 1174477466}
   m_Layer: 3
   m_Name: Bird
   m_TagString: Bird
@@ -1010,6 +1011,27 @@ MonoBehaviour:
   flapStrength: 20
   logic: {fileID: 0}
   birdIsAlive: 1
+--- !u!95 &1174477466
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174477460}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3b4de979c3395d84db6713683db26b07, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1231574507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,7 +1713,7 @@ Transform:
   m_GameObject: {fileID: 1913000956}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.4, y: 12.62, z: 4.82}
+  m_LocalPosition: {x: 34, y: 9.79, z: 4.82}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1902,7 +1924,7 @@ Transform:
   m_GameObject: {fileID: 1960476651}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.9, y: -12.07, z: 4.82}
+  m_LocalPosition: {x: 34, y: -8.06, z: 4.82}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
